@@ -1,0 +1,22 @@
+
+
+<form method="POST" action="/db/personal/insert">
+	{% for field in form.render %}
+
+		{% if field["render"] == "one_line_text" %}
+			<p>{{ form.type }}:</p>
+			<p>{{ form.one_line_text.label }}</p>
+			<p>{{ form.one_line_text(size=100) }}</p>
+			<p></p>
+
+		{% endif %}
+
+	{% endfor %}
+	
+
+
+    <input type="submit" value="Go">
+</form>
+
+
+

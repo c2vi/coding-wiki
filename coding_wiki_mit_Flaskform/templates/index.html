@@ -1,0 +1,37 @@
+
+
+
+<div id="sidebar" >
+	
+	<form action="/input">
+	{% for type in types %}
+
+	<input type="submit" name="name" value="{{type}}">
+
+	{% endfor %}
+	</form>
+
+	<br>
+
+<!-- 	<input type="text" name="Hallo">
+ -->	
+
+	<!-- <button type="submit" name="submit" value="calc" id="insert_button" action= "/echo">Insert Item</button> -->
+
+</div>
+
+
+<div id="main" > {% include "main.html" %} </div>
+
+<!--<form action="/echo" method="POST">
+    <input name="text">
+    <input type="submit" value="Echo">
+</form>
+
+<form action="/calc" method="POST">
+    <input type="submit" name="submit" value="calc">
+</form>
+
+<form action="/test" method="POST">
+    <input type="submit" name="submit" value="You won't be able to close calc">
+</form>-->

@@ -1,0 +1,12 @@
+
+
+{
+	"Garbige":{
+		"Some random text for testing purposes":"one_line_text"
+	},
+	"List":{
+		"What this List is about":"one_line_text",
+		"counting_in_numbers":"list_of_text"
+	}
+	
+}

@@ -1,0 +1,7 @@
+main_cli.py
+setup.py
+coding_wiki_cli.egg-info/PKG-INFO
+coding_wiki_cli.egg-info/SOURCES.txt
+coding_wiki_cli.egg-info/dependency_links.txt
+coding_wiki_cli.egg-info/entry_points.txt
+coding_wiki_cli.egg-info/top_level.txt

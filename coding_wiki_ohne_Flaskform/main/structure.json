@@ -1,0 +1,89 @@
+
+{
+	"General":{
+		"Garbige":"type",
+		"List":"type"
+	},
+
+	"Coding":{
+		"Python":"category",
+		"Unixshell":"category",
+		"Swift":"category",
+		"Tipp":"type",
+		"Example":"type",
+		"Tutorial":"type",
+		"Dokumentation Website":"type"
+	},
+
+	"Python":{
+		"Tipp":"type",
+		"Example":"type",
+		"Tutorial":"type",
+		"Keyword":"type",
+		"Funktion":"type",
+		"Modul":"type"
+	}
+	
+}
+
+
+
+
+{
+
+    "_id": {
+        "$oid": "5f4a5deccdbcd928edfb33f9"
+    },
+
+    "types": {
+
+    	"personal":{
+
+	      	"Garbige":{
+				"Some random text for testing purposes":"one_line_text"
+			},
+
+			"List":{
+				"What this List is about":"one_line_text",
+				"Items":"numbered_list_of_text"
+			}
+		},
+
+		"coding_wiki":{
+
+			"Coding__Python__Keyword":{
+				"Name":"one_line_text",
+				"Keyword":"python_code",
+				"Description":"more_line_text",
+				"Beispiele":"python_code",
+				"Usecases (things you can do with it)":"list_of_text",
+				"Links":"list_of_text",
+				"Tags":"coding_tags",
+				"Search Tags":"list_of_text"
+			},
+
+			"Coding__Python__Funktion":{
+				"Name":"one_line_text",
+				"Simple Code":"python_code",
+				"Advanced Code":"python_code",
+				"Description":"more_line_text",
+				"Beispiele":"python_code",
+				"Usecases (things you can do with it)":"list_of_text",
+				"Links":"list_of_text",
+				"Tags":"coding_tags",
+				"Search Tags":"list_of_text"
+			}
+
+		}
+    }
+}
+
+
+
+
+{
+	"Garbige":[{"value_title":"Some text for testing purposes","value_render":"one_line_text"}],
+	"List":[{"value_title":"What this list is about","value_render":"one_line_text"},{"value_render":"list_of_text"}]
+
+
+}

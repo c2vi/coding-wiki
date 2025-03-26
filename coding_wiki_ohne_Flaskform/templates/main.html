@@ -1,0 +1,33 @@
+
+<!-- render input -->
+
+
+<form action="/" method="GET">
+
+
+	{% for value in render %}
+
+	{% if value["render"] == "one_line_text" %}
+		<p> {{ value["title"] }} </p>
+		<input name="text">
+	{% endif %}
+
+	{% if value["render"] == "list_of_text" %}
+		<p>listoftext</p>
+	{% endif %}
+
+
+
+	{% endfor %}
+	<br>
+	<p>{{ render }}</p>
+	<br>
+	<p>{{ request.args }}</p>
+	<br>
+	<input type="submit" method="POST" value="Insert">
+
+</form>
+
+
+
+

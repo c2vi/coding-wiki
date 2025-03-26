@@ -1,0 +1,43 @@
+
+
+*{
+	font-family: Helvetia;
+}
+
+
+body{
+	display:inline-flex;
+	padding: 0px  !important ;
+	margin: 0px  !important ;
+}
+
+#menuebar{
+	background-color: blue;
+	color: blue;
+	top:0px;
+	height: 10vh;
+	width: 100%;
+	position:absolute;
+
+}
+
+#sidebar{
+	background-color:red;
+	top:10vh;
+	width: 20vw;
+	height: 90vh;
+	position:absolute;
+
+
+}
+
+#main{
+	background-color:green;
+	top:10vh;
+	left: 20vw;
+	width: 80vw;
+	height: 90vh;
+	position:absolute;
+
+
+}

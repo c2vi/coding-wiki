@@ -1,0 +1,13 @@
+Name,Syntax,,Beschreibung,links,suchtags,Kategorie
+Print,print(Wert),,,,,Befehl/Funktion
+Pow,pow(Zahl_Grundzahl,Zahl_Hochzahl),,"""power""--Zahl_1 hoch Zahl_2",,,Befehl/Funktion
+Sqrt,sqrt(Zahl),,Quadratwurzel,,,Befehl/Funktion
+Ceil,ceil(ZahlZahl_Stellen),,Runden,,,Befehl/Funktion
+Addieren zu Variable,Variable += Wert,, ist das Gleiche wie Variable = Variable+Zahl,,,Tipp
+If Abfrage,,,,,,Struktur
+Logisches UND,Bedingung_1 && Bedingung_2,,Verknüpft zwei Bedingungen z.B. in einer If Abfrage,,,Struktur/Bedingung/Verknüpfung
+Logisches OR,Bedingung_1 || Bedingung_2,,Verknüpft zwei Bedingungen z.B. in einer If Abfrage,,,Struktur/Bedingung/Verknüpfung
+Bedingung,Wert_1 > Wert_2,,Entweder Richtig (True) oder Falsch(false),,,Struktur/Bedingung/Verknüpfung
+Gleich,Wert_1 == Wert_2,,Ist Richtig(ergibt True), wenn Wert_1 gleich Wert_2 ist,,,Struktur/Bedingung/Operator
+Ungleich,Wert_1 != Wert_2,,Ist Richtig(ergibt True), wenn Wert_1 ungleich Wert_2 ist,,,Struktur/Bedingung/Operator
+Verschachtelung von Bedingungen,Bedingung_1 && (Bedingung_2 || Bedingung_3),,Funktioniert wie Ausdrücke der Boolschen Algebra,,,Struktur/Bedingung/Tipp

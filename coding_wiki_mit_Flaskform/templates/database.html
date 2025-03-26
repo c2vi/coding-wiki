@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% block head %}
+ <link rel="stylesheet" href= "{{url_for('static',filename='styles/database.css') }}" >
+
+{% endblock %}
+{% block body %}
+<div id="menuebar">
+	
+	<button><a href="/">Home</a></button>
+
+</div>
+
+<div id="sidebar" >
+	
+
+	{% for type in types %}
+
+	<button><a href="/db/{{ db_type }}/insert">{{ type }}</a></button><br>
+
+	{% endfor %}
+
+	<br>
+
+</div>
+
+<div id="main">
+
+	{% if include != "none" %}
+	{% include include %}
+	{% endif %}
+
+
+
+</div>
+{% endblock %}
